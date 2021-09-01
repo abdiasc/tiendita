@@ -1,0 +1,154 @@
+
+:root {
+    --primario: #003049;
+    --secundario: #2a9d8f;
+    --terceario: #e9c46a;
+    --cuaternario: #f4a261;
+    --cuaternario: #e76f51;
+    --color-blanco: #fff; 
+    --text-titles: 'Roboto', sans-serif;
+
+  }
+ 
+
+.content-mar-pad{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar{
+    background: var(--primario);
+}
+.nav-bar .avarar{
+    width: 32px;
+    height: 32px;
+    background: var(--terceario);
+    border-radius: 15px;
+    margin: 0px 5px;
+}
+.nav-bar .txt-logo{
+    margin: 0px 10px;
+    font-size: 1.5em;
+}
+.nav-bar .btn-menu{
+    background: var(--terceario);
+    color: var(--primario);
+}
+.drop-text{
+    color: var(--primario) !important;
+}
+
+
+
+
+.content-padding{
+    padding: 50px 0px;
+}
+
+.content-login{
+    background-image: url('../images/back.jpg');
+    margin: 0px;
+    padding: 0px;
+}
+.login-header{
+    padding: 10px !important;
+    color: aliceblue;
+    background: var(--primario);
+    font-family: var(--text-titles);
+}
+.login-body{
+    border: solid 1px var(--secundario);
+    padding: 10px !important;
+    color: var(--primario) !important;
+    font-family: var(--text-titles);
+    background: var(--color-blanco);
+    opacity: 0.8;
+}
+.margin-top-bot{
+    margin: 10px 0px;
+}
+.btn-inicia{
+    background: var(--primario);
+}
+.btn-inicia:hover{
+    background: var(--secundario);
+}
+
+
+
+
+.slider{
+    background: url('../images/back.jpg');
+    height: 600px;
+}
+
+
+.section{
+    margin: 5px;
+    padding: 10px;
+    font-family: var(--text-titles);
+}
+.section .avatar-img{
+    width: 100%;
+}
+.detalle-btn{
+    background: var(--terceario);
+    color: var(--primario);
+}
+.category-txt{
+    padding: 5px;
+    border-radius: 10px;
+    color: var(--primario);
+}
+.tag-txt{
+    padding: 5px;
+    margin: 2px !important;
+    color: var(--primario);
+    color: var(--color-blanco);
+    font-size: 12px;
+}
+
+.plan{
+    margin: 10px;
+    padding: 20px !important;
+    height: 350px;
+    border: solid 1px var(--primario);
+    font-family: var(--text-titles);
+}
+.plan h6{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+}
+
+
+
+.notice{
+    background: var(--terceario);
+    padding: 10px !important;
+}
+.notice h5{
+    margin: 0px;
+    padding: 0px;
+    color: var(--primario);
+    font-size: 1em;
+    font-family: var(--text-titles);
+}
+
+
+
+
+.img-s{
+    width: 100% !important;
+}
+
+
+
+
+
+
+.footer-content{
+    height: 200px;
+    background: var(--primario);
+    color: var(--color-blanco);
+}
